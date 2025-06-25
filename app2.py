@@ -3,10 +3,15 @@ def add(a, b):
 
 
 def sub(a, b):
-    return a - b
+    return a-b
 
-if __name__ == '__main__':
-    print("Welcome to the Calculator App")
 
-    print(add(5, 3))  # Example usage of the add function
-    print(sub(10, 4))  # Example usage of the subtract function
+def mul(a, b):
+    return a*b
+
+
+if __name__ == "__main__":
+    result1 = add(4, 5)
+    result2 = sub(4, 1)
+
+    print(result1, result2)
