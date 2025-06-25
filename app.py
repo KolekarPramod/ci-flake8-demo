@@ -1,18 +1,17 @@
-def add(a,b):
+def add(a, b):
     return a + b
 
 
+def sub(a, b):
+    return a-b
 
 
+def mul(a, b):
+    return a*b
 
 
-def subtract(a,b):    return a - b
+if __name__ == "__main__":
+    result1 = add(4, 5)
+    result2 = sub(4, 1)
 
-
-print("Welcome to the Calculator App")
-
-
-print(add(5, 3))  # Example usage of the add function
-print(subtract(10, 4))  # Example usage of the subtract function
-
-
+    print(result1, result2)

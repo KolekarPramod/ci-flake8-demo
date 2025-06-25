@@ -31,7 +31,7 @@ jobs:
 
       - name: run flake8
         run: |
-          flake8 app2.py
+          flake8 app.py
 
   testing:
     needs: linting
