@@ -12,6 +12,7 @@ class TestMathFunctions(unittest.TestCase):
     def test_sub(self):
         self.assertEqual(sub(4, 5), -1)
         self.assertEqual(sub(-1, -1), 0)
+        
 
 if __name__ == '__main__':
     unittest.main()
